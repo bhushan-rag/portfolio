@@ -49,21 +49,13 @@ export const navLinks = [
 
 const services = [
   {
-    title: "IOS developer",
-    icon: mobile,
-  },
-  {
-    title: "Tensorflow",
+    title: "WEB developer",
     icon: web,
   },
   {
     title: "Data Structures",
     icon: backend,
   },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
 ];
 
 const technologies = [
@@ -84,24 +76,12 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "Swift",
-    icon: swift,
-  },
-  {
     name: "Python",
     icon: python,
   },
   {
-    name: "Tensorflow",
-    icon: tensorflow,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -119,16 +99,15 @@ const technologies = [
     name: "git",
     icon: git,
   },
-
 ];
 
 const experiences = [
   {
-    title: "UIKit changes on CMS",
-    company_name: "Crux-BITS Pilani",
-    icon: carrent,
+    title: "Blog Website",
+    company_name: "Bharat Intern",
+    icon: javascript,
     iconBg: "#383E56",
-    date: "January 2023 - present",
+    date: "April 2024 - may 2024",
     points: [
       "#Issue125 - ability to turn off/on push notifications through a custom UISwitch by registering and registering moodle service",
       "#Issue123 - updated UI for module and announcement cells while searching in dark mode ",
@@ -139,14 +118,13 @@ const experiences = [
   {
     title: "Custom-BITS Impartus",
     company_name: "Video-Player",
-    icon: jobit,
+    icon: javascript,
     iconBg: "#E6DEDD",
     date: "Nov 2022 - Dec 2022",
     points: [
       "Made a video player app using AVKit and SwiftUI",
       "Fetches inputs from an REST API",
       "Implementing better user experience",
-      
     ],
   },
   // {
@@ -206,46 +184,46 @@ const testimonials = [
 
 const projects = [
   {
-    name: "CMS-IOS",
+    name: "Netflix-Clone",
     description:
-      "An app that uses moodle , manages courses and interacts between instructor and students",
+      "An app that uses IMDB for data fetch. I used firebase, firebaseAdmin to store users data. Tracking the Subscription Plan For a user",
     tags: [
       {
-        name: "Swift",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "Alamofire",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "UIKit",
+        name: "HTML",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/TanmayDev16/CMS-iOS-Tanmay/tree/main",
+    source_code_link: "https://github.com/bhushan-rag/netflix-build",
   },
   {
-    name: "Custom-Impartus",
+    name: "Chat-with-PDF",
     description:
-      "A video player app that creates a unique user experience",
+      "A real time AI chatting app with PDFs and You can ask Questions about your PDF",
     tags: [
       {
-        name: "SwiftUI",
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "C++",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "Xcode",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/TanmayDev16/Custom_BITS_Impartus-v2-",
+    image: carrent,
+    source_code_link: "https://github.com/bhushan-rag/pdf-chatting",
   },
   // {
   //   name: "Trip Guide",

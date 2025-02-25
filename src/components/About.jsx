@@ -47,9 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a competent IOS developer with experience in Swift and
-        C++, and experience in frameworks like SwiftUI,UIKit, and
-        CoreData . I have a strong problem-solving and communication skills required.My 
+        I'm a competent WEB developer with experience in Javascript and
+        C++, and experience in frameworks like ReactJs,Node.js. I have a strong problem-solving and communication skills required.My 
         focus is on better user-experience and 
         create efficient and scalable solutions that solve
         real-world problems.
